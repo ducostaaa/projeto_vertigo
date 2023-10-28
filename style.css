@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+   --gray-800: #1e293b;
+}
 header{
     background-image: url(./imagens/bg-mobile.png);
     background-size: cover;
@@ -11,4 +14,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3.7rem;
+}
+main{
+    padding-inline: 1.5rem;
 }
