@@ -48,7 +48,7 @@ main{
     align-items: center;
 }
 .
-.login label {
+.login label { 
     font-size: 0.875rem;
     color: var(--gray-800);
     font-weight: 600;
@@ -91,4 +91,9 @@ outline: 1px solid var(--purple);
 .login > p a {
     font-weight: 700;
     font-size: 1rem;
+}
+@media(min-width :1000px){
+    header {
+        background: none;
+    }
 }
