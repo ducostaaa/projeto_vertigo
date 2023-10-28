@@ -92,8 +92,29 @@ outline: 1px solid var(--purple);
     font-weight: 700;
     font-size: 1rem;
 }
+.bg-desktop{
+    display: none;
+}
 @media(min-width :1000px){
+    body{
+        display: flex;
+        width: 100%;
+    }
+    .conteudo{
+        width: 100%;
+    }
     header {
         background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+    header img {
+        width: 10rem;
+    }
+    main {
+        padding-inline: 7rem;
+    }
+    .bg-desktop{
+        display: block;
     }
 }
