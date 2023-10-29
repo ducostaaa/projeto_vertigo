@@ -87,7 +87,9 @@ outline: 1px solid var(--purple);
     color: var(white);
 }
 .login button:hover {
-    background: var(light-purple);
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor:pointer;
 }
 .login > p {
     color: var(--gray-600);
@@ -100,9 +102,10 @@ outline: 1px solid var(--purple);
     display: none;
 }
 .
-@media(min-width :1000px){
+@media(min-width: 1000px){
     body{
         display: flex;
+        height: 100vh;
         width: 100%;
     }
     .conteudo{
@@ -127,6 +130,11 @@ outline: 1px solid var(--purple);
     }
     .bg-desktop{
         display: block;
+    }
+    .bg-desktop img {
+        display: block;
+        width: 100%;
+        height: 100%;
     }
     .descricao h1 {
         font: 2.25rem;
